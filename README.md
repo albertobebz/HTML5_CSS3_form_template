@@ -2,4 +2,3 @@
 A clean and effective login form using HTML5 and CSS3.
 Feel free to fork it and use in your personal projects!
 
-...work in progress...
