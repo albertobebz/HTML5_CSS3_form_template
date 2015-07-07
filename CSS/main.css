@@ -56,4 +56,14 @@ input[type="checkbox"] {
   margin: 0 4px 8px 0;
 }
 
+/*** prevent the textarea to resize ***/
+textarea {
+  resize: none;
+}
+
+
+
+
+
+
 
