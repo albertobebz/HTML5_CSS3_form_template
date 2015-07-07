@@ -89,6 +89,7 @@ button:hover {
   border-width: 1px 1px 3px;
 }
 
+/*** @media rule for screen wider than 480px ***/
 @media screen and (min-width: 480px) {
 
   form {
