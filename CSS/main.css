@@ -9,12 +9,13 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
+  background-color: #EBE668;
 }
 
 /*** form style ***/
 form {
   max-width: 300px;
-  margin: 80px auto;
+  margin: 50px auto;
   padding: 10px 20px;
   background: #f4f7f8;
   border-radius: 8px;
@@ -61,11 +62,11 @@ textarea {
   resize: none;
 }
 
-/*select {
+select {
   padding: 6px;
   height: 32px;
   border-radius: 2px;
-}*/
+}
 
 /*** style for the button ***/
 button {
@@ -83,12 +84,18 @@ button {
 }
 
 button:hover {
-  background-color: #7CB88D;
-  border: 1px solid #389654;
+  background-color: #EBE668;
+  border: 1px solid #DEDA63;
   border-width: 1px 1px 3px;
 }
 
+@media screen and (min-width: 480px) {
 
+  form {
+    max-width: 480px;
+  }
+
+}
 
 
 
