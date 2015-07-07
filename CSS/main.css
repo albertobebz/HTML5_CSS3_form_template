@@ -1,10 +1,11 @@
-/*** apply a natural box layout model to all elements, but allowing components to change ***/
+/*** apply natural box layout model to all elements (:before, :after included), and allowing components to change ***/
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/*** used the Google Font 'Nunito' as global font  ***/
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
